@@ -1,0 +1,42 @@
+header {
+   text-align: center; 
+   padding: 20px;
+}
+
+body {
+   background: url(langit.jpeg) no-repeat fixed;
+   background-size: cover;
+}
+
+*{
+   box-sizing: border-box;
+}
+.row {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+}
+.post-text-box {
+   align-items: center;
+   flex: 70%;
+   padding: 20px;
+}
+.profile {
+   align-items: center;
+   flex: 70%;
+   padding: 20px;
+}
+
+.profile img {
+   width: 120px;
+   display: block;
+   margin-left: 0;
+   margin-right: 0;
+}
+.profile h1 {
+   text-align: center;
+}
+img {
+    width: 200px;
+    height:auto;
+}
