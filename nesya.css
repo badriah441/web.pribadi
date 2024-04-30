@@ -1,0 +1,56 @@
+/* CSS styles go here */
+header {
+    text-align: center; 
+    padding: 20px;
+ }
+ body {
+    background: url(laut.jpeg) no-repeat fixed;
+    background-size: cover;
+    margin: 15px;
+ }
+ 
+ *{
+    box-sizing: border-box;
+ }
+ .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+ }
+ post-text-box {
+    align-items: center;
+    flex: 70%;
+    padding: 20px;
+ }
+ .profile {
+    align-items: center;
+    display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+    padding: 20px;
+ }
+
+ .profil{
+    height: 500px;
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ padding: 20px;
+ } 
+
+
+ .profile img {
+    width: 120px;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+ }
+ .profile h1 {
+    text-align: center;
+ }
+
+ h1 {
+    color: rgb(21, 238, 115);
+    -webkit-text-stroke: 1px rgb(22, 19, 19) ;
+ }
